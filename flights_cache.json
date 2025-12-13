@@ -1,0 +1,1528 @@
+{
+  "search_metadata": {
+    "id": "693d609ca688553f7a495904",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/296f745f7d227023/693d609ca688553f7a495904.json",
+    "created_at": "2025-12-13 12:48:28 UTC",
+    "processed_at": "2025-12-13 12:48:28 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTAzLTA1agcIARIDQVVTcgcIARIDU0pPQgEBSAFwAZgBAg&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/296f745f7d227023/693d609ca688553f7a495904.html",
+    "prettify_html_file": "https://serpapi.com/searches/296f745f7d227023/693d609ca688553f7a495904.prettify",
+    "total_time_taken": 3.0
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "2",
+    "departure_id": "AUS",
+    "arrival_id": "SJO",
+    "outbound_date": "2026-03-05",
+    "currency": "USD",
+    "deep_search": true
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2026-03-05 12:34"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-05 15:43"
+          },
+          "duration": 129,
+          "airplane": "Airbus A321",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 2886",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 136 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-05 19:05"
+          },
+          "arrival_airport": {
+            "name": "Juan Santamar\u00eda International Airport",
+            "id": "SJO",
+            "time": "2026-03-05 22:02"
+          },
+          "duration": 237,
+          "airplane": "Boeing 757",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 1931",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 283 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 202,
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "id": "ATL"
+        }
+      ],
+      "total_duration": 568,
+      "carbon_emissions": {
+        "this_flight": 420000,
+        "typical_for_this_route": 303000,
+        "difference_percent": 39
+      },
+      "price": 170,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "booking_token": "WyJDalJJTVd3NVlVTldXRGhsUmtsQlJYaEZjMmRDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIyczVXVW8wUlhvM2R6UkJFZzFFVERJNE9EWjhSRXd4T1RNeEdnc0lzNFFCRUFJYUExVlRSRGdjY0xPRUFRPT0iLFtbIkFVUyIsIjIwMjYtMDMtMDUiLCJBVEwiLG51bGwsIkRMIiwiMjg4NiJdLFsiQVRMIiwiMjAyNi0wMy0wNSIsIlNKTyIsbnVsbCwiREwiLCIxOTMxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2026-03-05 16:24"
+          },
+          "arrival_airport": {
+            "name": "Dallas Fort Worth International Airport",
+            "id": "DFW",
+            "time": "2026-03-05 17:40"
+          },
+          "duration": 76,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 1126",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 56 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Dallas Fort Worth International Airport",
+            "id": "DFW",
+            "time": "2026-03-05 18:35"
+          },
+          "arrival_airport": {
+            "name": "Juan Santamar\u00eda International Airport",
+            "id": "SJO",
+            "time": "2026-03-05 22:43"
+          },
+          "duration": 248,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 1453",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 227 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 55,
+          "name": "Dallas Fort Worth International Airport",
+          "id": "DFW"
+        }
+      ],
+      "total_duration": 379,
+      "carbon_emissions": {
+        "this_flight": 284000,
+        "typical_for_this_route": 303000,
+        "difference_percent": -6
+      },
+      "price": 194,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "booking_token": "WyJDalJJTVd3NVlVTldXRGhsUmtsQlJYaEZjMmRDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIyczVXVW8wUlhvM2R6UkJFZzFCUVRFeE1qWjhRVUV4TkRVekdnc0lrNWNCRUFJYUExVlRSRGdjY0pPWEFRPT0iLFtbIkFVUyIsIjIwMjYtMDMtMDUiLCJERlciLG51bGwsIkFBIiwiMTEyNiJdLFsiREZXIiwiMjAyNi0wMy0wNSIsIlNKTyIsbnVsbCwiQUEiLCIxNDUzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2026-03-05 16:18"
+          },
+          "arrival_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2026-03-05 17:25"
+          },
+          "duration": 67,
+          "airplane": "Airbus A319",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 685",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 66 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2026-03-05 18:50"
+          },
+          "arrival_airport": {
+            "name": "Juan Santamar\u00eda International Airport",
+            "id": "SJO",
+            "time": "2026-03-05 22:32"
+          },
+          "duration": 222,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1660",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 180 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 85,
+          "name": "George Bush Intercontinental Airport",
+          "id": "IAH"
+        }
+      ],
+      "total_duration": 374,
+      "carbon_emissions": {
+        "this_flight": 247000,
+        "typical_for_this_route": 303000,
+        "difference_percent": -18
+      },
+      "price": 262,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJTVd3NVlVTldXRGhsUmtsQlJYaEZjMmRDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIyczVXVW8wUlhvM2R6UkJFZ3hWUVRZNE5YeFZRVEUyTmpBYUN3aWp6QUVRQWhvRFZWTkVPQnh3bzh3QiIsW1siQVVTIiwiMjAyNi0wMy0wNSIsIklBSCIsbnVsbCwiVUEiLCI2ODUiXSxbIklBSCIsIjIwMjYtMDMtMDUiLCJTSk8iLG51bGwsIlVBIiwiMTY2MCJdXV0="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2026-03-05 15:35"
+          },
+          "arrival_airport": {
+            "name": "Charlotte Douglas International Airport",
+            "id": "CLT",
+            "time": "2026-03-05 19:19"
+          },
+          "duration": 164,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2863",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 155 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Charlotte Douglas International Airport",
+            "id": "CLT",
+            "time": "2026-03-06 05:00"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-03-06 07:11"
+          },
+          "duration": 131,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 981",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 108 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-03-06 08:25"
+          },
+          "arrival_airport": {
+            "name": "Juan Santamar\u00eda International Airport",
+            "id": "SJO",
+            "time": "2026-03-06 10:25"
+          },
+          "duration": 180,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 379",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 149 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 581,
+          "name": "Charlotte Douglas International Airport",
+          "id": "CLT",
+          "overnight": true
+        },
+        {
+          "duration": 74,
+          "name": "Miami International Airport",
+          "id": "MIA"
+        }
+      ],
+      "total_duration": 1130,
+      "carbon_emissions": {
+        "this_flight": 414000,
+        "typical_for_this_route": 303000,
+        "difference_percent": 37
+      },
+      "price": 123,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "booking_token": "WyJDalJJTVd3NVlVTldXRGhsUmtsQlJYaEZjMmRDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIyczVXVW8wUlhvM2R6UkJFaEpCUVRJNE5qTjhRVUU1T0RGOFFVRXpOemthQ2dpdlh4QUNHZ05WVTBRNEhIQ3ZYdz09IixbWyJBVVMiLCIyMDI2LTAzLTA1IiwiQ0xUIixudWxsLCJBQSIsIjI4NjMiXSxbIkNMVCIsIjIwMjYtMDMtMDYiLCJNSUEiLG51bGwsIkFBIiwiOTgxIl0sWyJNSUEiLCIyMDI2LTAzLTA2IiwiU0pPIixudWxsLCJBQSIsIjM3OSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2026-03-05 06:35"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-05 09:50"
+          },
+          "duration": 135,
+          "airplane": "Airbus A320",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 1258",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 132 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-05 19:05"
+          },
+          "arrival_airport": {
+            "name": "Juan Santamar\u00eda International Airport",
+            "id": "SJO",
+            "time": "2026-03-05 22:02"
+          },
+          "duration": 237,
+          "airplane": "Boeing 757",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 1931",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 283 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 555,
+          "name": "Hartsfield-Jackson Atlanta International Airport",
+          "id": "ATL"
+        }
+      ],
+      "total_duration": 927,
+      "carbon_emissions": {
+        "this_flight": 416000,
+        "typical_for_this_route": 303000,
+        "difference_percent": 37
+      },
+      "price": 127,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "booking_token": "WyJDalJJTVd3NVlVTldXRGhsUmtsQlJYaEZjMmRDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIyczVXVW8wUlhvM2R6UkJFZzFFVERFeU5UaDhSRXd4T1RNeEdnb0k1MklRQWhvRFZWTkVPQnh3NTJJPSIsW1siQVVTIiwiMjAyNi0wMy0wNSIsIkFUTCIsbnVsbCwiREwiLCIxMjU4Il0sWyJBVEwiLCIyMDI2LTAzLTA1IiwiU0pPIixudWxsLCJETCIsIjE5MzEiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2026-03-05 05:30"
+          },
+          "arrival_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2026-03-05 06:32"
+          },
+          "duration": 62,
+          "airplane": "Airbus A319",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1966",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 66 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2026-03-05 18:50"
+          },
+          "arrival_airport": {
+            "name": "Juan Santamar\u00eda International Airport",
+            "id": "SJO",
+            "time": "2026-03-05 22:32"
+          },
+          "duration": 222,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1660",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 180 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 738,
+          "name": "George Bush Intercontinental Airport",
+          "id": "IAH"
+        }
+      ],
+      "total_duration": 1022,
+      "carbon_emissions": {
+        "this_flight": 247000,
+        "typical_for_this_route": 303000,
+        "difference_percent": -18
+      },
+      "price": 193,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJTVd3NVlVTldXRGhsUmtsQlJYaEZjMmRDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIyczVXVW8wUlhvM2R6UkJFZzFWUVRFNU5qWjhWVUV4TmpZd0dnc0lnNVlCRUFJYUExVlRSRGdjY0lPV0FRPT0iLFtbIkFVUyIsIjIwMjYtMDMtMDUiLCJJQUgiLG51bGwsIlVBIiwiMTk2NiJdLFsiSUFIIiwiMjAyNi0wMy0wNSIsIlNKTyIsbnVsbCwiVUEiLCIxNjYwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2026-03-05 05:40"
+          },
+          "arrival_airport": {
+            "name": "Orlando International Airport",
+            "id": "MCO",
+            "time": "2026-03-05 09:05"
+          },
+          "duration": 145,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Southwest",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
+          "travel_class": "Economy",
+          "flight_number": "WN 1786",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 130 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Orlando International Airport",
+            "id": "MCO",
+            "time": "2026-03-05 13:10"
+          },
+          "arrival_airport": {
+            "name": "William P. Hobby Airport",
+            "id": "HOU",
+            "time": "2026-03-05 14:55"
+          },
+          "duration": 165,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Southwest",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
+          "travel_class": "Economy",
+          "flight_number": "WN 2275",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 115 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "William P. Hobby Airport",
+            "id": "HOU",
+            "time": "2026-03-05 17:15"
+          },
+          "arrival_airport": {
+            "name": "Juan Santamar\u00eda International Airport",
+            "id": "SJO",
+            "time": "2026-03-05 20:40"
+          },
+          "duration": 205,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Southwest",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
+          "travel_class": "Economy",
+          "flight_number": "WN 112",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 170 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 245,
+          "name": "Orlando International Airport",
+          "id": "MCO"
+        },
+        {
+          "duration": 140,
+          "name": "William P. Hobby Airport",
+          "id": "HOU"
+        }
+      ],
+      "total_duration": 900,
+      "carbon_emissions": {
+        "this_flight": 417000,
+        "typical_for_this_route": 303000,
+        "difference_percent": 38
+      },
+      "price": 218,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
+      "booking_token": "WyJDalJJTVd3NVlVTldXRGhsUmtsQlJYaEZjMmRDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIyczVXVW8wUlhvM2R6UkJFaE5YVGpFM09EWjhWMDR5TWpjMWZGZE9NVEV5R2dzSXk2a0JFQUlhQTFWVFJEZ2NjTXVwQVE9PSIsW1siQVVTIiwiMjAyNi0wMy0wNSIsIk1DTyIsbnVsbCwiV04iLCIxNzg2Il0sWyJNQ08iLCIyMDI2LTAzLTA1IiwiSE9VIixudWxsLCJXTiIsIjIyNzUiXSxbIkhPVSIsIjIwMjYtMDMtMDUiLCJTSk8iLG51bGwsIldOIiwiMTEyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2026-03-05 05:20"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-03-05 09:09"
+          },
+          "duration": 169,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 1593",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 133 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-03-05 10:19"
+          },
+          "arrival_airport": {
+            "name": "Juan Santamar\u00eda International Airport",
+            "id": "SJO",
+            "time": "2026-03-05 12:23"
+          },
+          "duration": 184,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 3333",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 149 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 70,
+          "name": "Miami International Airport",
+          "id": "MIA"
+        }
+      ],
+      "total_duration": 423,
+      "carbon_emissions": {
+        "this_flight": 284000,
+        "typical_for_this_route": 303000,
+        "difference_percent": -6
+      },
+      "price": 264,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "booking_token": "WyJDalJJTVd3NVlVTldXRGhsUmtsQlJYaEZjMmRDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIyczVXVW8wUlhvM2R6UkJFZzFCUVRFMU9UTjhRVUV6TXpNekdnc0k2ODBCRUFJYUExVlRSRGdjY092TkFRPT0iLFtbIkFVUyIsIjIwMjYtMDMtMDUiLCJNSUEiLG51bGwsIkFBIiwiMTU5MyJdLFsiTUlBIiwiMjAyNi0wMy0wNSIsIlNKTyIsbnVsbCwiQUEiLCIzMzMzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2026-03-05 07:15"
+          },
+          "arrival_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-03-05 11:08"
+          },
+          "duration": 173,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 1483",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 157 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Miami International Airport",
+            "id": "MIA",
+            "time": "2026-03-05 12:05"
+          },
+          "arrival_airport": {
+            "name": "Juan Santamar\u00eda International Airport",
+            "id": "SJO",
+            "time": "2026-03-05 14:04"
+          },
+          "duration": 179,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 313",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 149 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 57,
+          "name": "Miami International Airport",
+          "id": "MIA"
+        }
+      ],
+      "total_duration": 409,
+      "carbon_emissions": {
+        "this_flight": 307000,
+        "typical_for_this_route": 303000,
+        "difference_percent": 1
+      },
+      "price": 264,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "booking_token": "WyJDalJJTVd3NVlVTldXRGhsUmtsQlJYaEZjMmRDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIyczVXVW8wUlhvM2R6UkJFZ3hCUVRFME9ETjhRVUV6TVRNYUN3anJ6UUVRQWhvRFZWTkVPQnh3NjgwQiIsW1siQVVTIiwiMjAyNi0wMy0wNSIsIk1JQSIsbnVsbCwiQUEiLCIxNDgzIl0sWyJNSUEiLCIyMDI2LTAzLTA1IiwiU0pPIixudWxsLCJBQSIsIjMxMyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2026-03-05 12:35"
+          },
+          "arrival_airport": {
+            "name": "William P. Hobby Airport",
+            "id": "HOU",
+            "time": "2026-03-05 13:35"
+          },
+          "duration": 60,
+          "airplane": "Boeing 737-700 (Scimitar Winglets) Pax",
+          "airline": "Southwest",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
+          "travel_class": "Economy",
+          "flight_number": "WN 2726",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "Stream media to your device",
+            "Carbon emissions estimate: 76 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "William P. Hobby Airport",
+            "id": "HOU",
+            "time": "2026-03-05 17:15"
+          },
+          "arrival_airport": {
+            "name": "Juan Santamar\u00eda International Airport",
+            "id": "SJO",
+            "time": "2026-03-05 20:40"
+          },
+          "duration": 205,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Southwest",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
+          "travel_class": "Economy",
+          "flight_number": "WN 112",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 170 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 220,
+          "name": "William P. Hobby Airport",
+          "id": "HOU"
+        }
+      ],
+      "total_duration": 485,
+      "carbon_emissions": {
+        "this_flight": 246000,
+        "typical_for_this_route": 303000,
+        "difference_percent": -19
+      },
+      "price": 292,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/WN.png",
+      "booking_token": "WyJDalJJTVd3NVlVTldXRGhsUmtsQlJYaEZjMmRDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIyczVXVW8wUlhvM2R6UkJFZ3hYVGpJM01qWjhWMDR4TVRJYUN3amI0d0VRQWhvRFZWTkVPQnh3MitNQiIsW1siQVVTIiwiMjAyNi0wMy0wNSIsIkhPVSIsbnVsbCwiV04iLCIyNzI2Il0sWyJIT1UiLCIyMDI2LTAzLTA1IiwiU0pPIixudWxsLCJXTiIsIjExMiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2026-03-05 07:15"
+          },
+          "arrival_airport": {
+            "name": "Seattle-Tacoma International Airport",
+            "id": "SEA",
+            "time": "2026-03-05 10:00"
+          },
+          "duration": 285,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "Economy",
+          "flight_number": "AS 595",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 213 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Seattle-Tacoma International Airport",
+            "id": "SEA",
+            "time": "2026-03-05 12:50"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-03-05 15:36"
+          },
+          "duration": 166,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "Economy",
+          "flight_number": "AS 696",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 123 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-03-05 16:23"
+          },
+          "arrival_airport": {
+            "name": "Juan Santamar\u00eda International Airport",
+            "id": "SJO",
+            "time": "2026-03-06 00:07"
+          },
+          "duration": 344,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "Economy",
+          "flight_number": "AS 1352",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 287 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 170,
+          "name": "Seattle-Tacoma International Airport",
+          "id": "SEA"
+        },
+        {
+          "duration": 47,
+          "name": "Los Angeles International Airport",
+          "id": "LAX"
+        }
+      ],
+      "total_duration": 1012,
+      "carbon_emissions": {
+        "this_flight": 625000,
+        "typical_for_this_route": 303000,
+        "difference_percent": 106
+      },
+      "price": 310,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+      "booking_token": "WyJDalJJTVd3NVlVTldXRGhsUmtsQlJYaEZjMmRDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIyczVXVW8wUlhvM2R6UkJFaEpCVXpVNU5YeEJVelk1Tm54QlV6RXpOVElhQ3dqajhRRVFBaG9EVlZORU9CeHc0L0VCIixbWyJBVVMiLCIyMDI2LTAzLTA1IiwiU0VBIixudWxsLCJBUyIsIjU5NSJdLFsiU0VBIiwiMjAyNi0wMy0wNSIsIkxBWCIsbnVsbCwiQVMiLCI2OTYiXSxbIkxBWCIsIjIwMjYtMDMtMDUiLCJTSk8iLG51bGwsIkFTIiwiMTM1MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2026-03-05 07:15"
+          },
+          "arrival_airport": {
+            "name": "Seattle-Tacoma International Airport",
+            "id": "SEA",
+            "time": "2026-03-05 10:00"
+          },
+          "duration": 285,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "Economy",
+          "flight_number": "AS 595",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 213 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Seattle-Tacoma International Airport",
+            "id": "SEA",
+            "time": "2026-03-05 10:44"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-03-05 13:29"
+          },
+          "duration": 165,
+          "airplane": "Boeing 737",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "Economy",
+          "flight_number": "AS 505",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 143 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-03-05 16:23"
+          },
+          "arrival_airport": {
+            "name": "Juan Santamar\u00eda International Airport",
+            "id": "SJO",
+            "time": "2026-03-06 00:07"
+          },
+          "duration": 344,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Alaska",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+          "travel_class": "Economy",
+          "flight_number": "AS 1352",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 287 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 44,
+          "name": "Seattle-Tacoma International Airport",
+          "id": "SEA"
+        },
+        {
+          "duration": 174,
+          "name": "Los Angeles International Airport",
+          "id": "LAX"
+        }
+      ],
+      "total_duration": 1012,
+      "carbon_emissions": {
+        "this_flight": 645000,
+        "typical_for_this_route": 303000,
+        "difference_percent": 113
+      },
+      "price": 310,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+      "booking_token": "WyJDalJJTVd3NVlVTldXRGhsUmtsQlJYaEZjMmRDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIyczVXVW8wUlhvM2R6UkJFaEpCVXpVNU5YeEJVelV3Tlh4QlV6RXpOVElhQ3dqajhRRVFBaG9EVlZORU9CeHc0L0VCIixbWyJBVVMiLCIyMDI2LTAzLTA1IiwiU0VBIixudWxsLCJBUyIsIjU5NSJdLFsiU0VBIiwiMjAyNi0wMy0wNSIsIkxBWCIsbnVsbCwiQVMiLCI1MDUiXSxbIkxBWCIsIjIwMjYtMDMtMDUiLCJTSk8iLG51bGwsIkFTIiwiMTM1MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2026-03-05 06:00"
+          },
+          "arrival_airport": {
+            "name": "Fort Lauderdale-Hollywood International Airport",
+            "id": "FLL",
+            "time": "2026-03-05 10:00"
+          },
+          "duration": 180,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 2272",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Fort Lauderdale-Hollywood International Airport",
+            "id": "FLL",
+            "time": "2026-03-05 11:00"
+          },
+          "arrival_airport": {
+            "name": "Juan Santamar\u00eda International Airport",
+            "id": "SJO",
+            "time": "2026-03-05 13:00"
+          },
+          "duration": 180,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 39",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 179 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 60,
+          "name": "Fort Lauderdale-Hollywood International Airport",
+          "id": "FLL"
+        }
+      ],
+      "total_duration": 420,
+      "carbon_emissions": {
+        "this_flight": 370000,
+        "typical_for_this_route": 303000,
+        "difference_percent": 22
+      },
+      "price": 342,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "booking_token": "WyJDalJJTVd3NVlVTldXRGhsUmtsQlJYaEZjMmRDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIyczVXVW8wUlhvM2R6UkJFZ3RDTmpJeU56SjhRall6T1JvTENPT0tBaEFDR2dOVlUwUTRISERqaWdJPSIsW1siQVVTIiwiMjAyNi0wMy0wNSIsIkZMTCIsbnVsbCwiQjYiLCIyMjcyIl0sWyJGTEwiLCIyMDI2LTAzLTA1IiwiU0pPIixudWxsLCJCNiIsIjM5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2026-03-05 14:42"
+          },
+          "arrival_airport": {
+            "name": "Tocumen International Airport Panama",
+            "id": "PTY",
+            "time": "2026-03-05 20:00"
+          },
+          "duration": 258,
+          "airplane": "Boeing 737",
+          "airline": "COPA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
+          "travel_class": "Economy",
+          "flight_number": "CM 716",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 246 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Tocumen International Airport Panama",
+            "id": "PTY",
+            "time": "2026-03-05 21:21"
+          },
+          "arrival_airport": {
+            "name": "Juan Santamar\u00eda International Airport",
+            "id": "SJO",
+            "time": "2026-03-05 21:46"
+          },
+          "duration": 85,
+          "airplane": "Boeing 737",
+          "airline": "COPA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
+          "travel_class": "Economy",
+          "flight_number": "CM 162",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 72 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 81,
+          "name": "Tocumen International Airport Panama",
+          "id": "PTY"
+        }
+      ],
+      "total_duration": 424,
+      "carbon_emissions": {
+        "this_flight": 318000,
+        "typical_for_this_route": 303000,
+        "difference_percent": 5
+      },
+      "price": 416,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
+      "booking_token": "WyJDalJJTVd3NVlVTldXRGhsUmtsQlJYaEZjMmRDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIyczVXVW8wUlhvM2R6UkJFZ3REVFRjeE5ueERUVEUyTWhvTENMTEVBaEFDR2dOVlUwUTRISEN5eEFJPSIsW1siQVVTIiwiMjAyNi0wMy0wNSIsIlBUWSIsbnVsbCwiQ00iLCI3MTYiXSxbIlBUWSIsIjIwMjYtMDMtMDUiLCJTSk8iLG51bGwsIkNNIiwiMTYyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Austin-Bergstrom International Airport",
+            "id": "AUS",
+            "time": "2026-03-05 12:16"
+          },
+          "arrival_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2026-03-05 13:23"
+          },
+          "duration": 67,
+          "airplane": "Airbus A319",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 657",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 66 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2026-03-05 14:34"
+          },
+          "arrival_airport": {
+            "name": "Juan Santamar\u00eda International Airport",
+            "id": "SJO",
+            "time": "2026-03-05 18:16"
+          },
+          "duration": 222,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1055",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 180 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 71,
+          "name": "George Bush Intercontinental Airport",
+          "id": "IAH"
+        }
+      ],
+      "total_duration": 360,
+      "carbon_emissions": {
+        "this_flight": 247000,
+        "typical_for_this_route": 303000,
+        "difference_percent": -18
+      },
+      "price": 421,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJTVd3NVlVTldXRGhsUmtsQlJYaEZjMmRDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIyczVXVW8wUlhvM2R6UkJFZ3hWUVRZMU4zeFZRVEV3TlRVYUN3aS95QUlRQWhvRFZWTkVPQnh3djhnQyIsW1siQVVTIiwiMjAyNi0wMy0wNSIsIklBSCIsbnVsbCwiVUEiLCI2NTciXSxbIklBSCIsIjIwMjYtMDMtMDUiLCJTSk8iLG51bGwsIlVBIiwiMTA1NSJdXV0="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 123,
+    "price_level": "low",
+    "typical_price_range": [
+      135,
+      220
+    ],
+    "price_history": [
+      [
+        1760418000,
+        115
+      ],
+      [
+        1760504400,
+        138
+      ],
+      [
+        1760590800,
+        143
+      ],
+      [
+        1760677200,
+        143
+      ],
+      [
+        1760763600,
+        143
+      ],
+      [
+        1760850000,
+        143
+      ],
+      [
+        1760936400,
+        143
+      ],
+      [
+        1761022800,
+        139
+      ],
+      [
+        1761109200,
+        139
+      ],
+      [
+        1761195600,
+        139
+      ],
+      [
+        1761282000,
+        129
+      ],
+      [
+        1761368400,
+        129
+      ],
+      [
+        1761454800,
+        129
+      ],
+      [
+        1761541200,
+        129
+      ],
+      [
+        1761627600,
+        129
+      ],
+      [
+        1761714000,
+        128
+      ],
+      [
+        1761800400,
+        123
+      ],
+      [
+        1761886800,
+        123
+      ],
+      [
+        1761973200,
+        123
+      ],
+      [
+        1762059600,
+        123
+      ],
+      [
+        1762149600,
+        123
+      ],
+      [
+        1762236000,
+        123
+      ],
+      [
+        1762322400,
+        123
+      ],
+      [
+        1762408800,
+        123
+      ],
+      [
+        1762495200,
+        123
+      ],
+      [
+        1762581600,
+        123
+      ],
+      [
+        1762668000,
+        123
+      ],
+      [
+        1762754400,
+        123
+      ],
+      [
+        1762840800,
+        123
+      ],
+      [
+        1762927200,
+        123
+      ],
+      [
+        1763013600,
+        123
+      ],
+      [
+        1763100000,
+        123
+      ],
+      [
+        1763186400,
+        123
+      ],
+      [
+        1763272800,
+        123
+      ],
+      [
+        1763359200,
+        123
+      ],
+      [
+        1763445600,
+        123
+      ],
+      [
+        1763532000,
+        123
+      ],
+      [
+        1763618400,
+        123
+      ],
+      [
+        1763704800,
+        123
+      ],
+      [
+        1763791200,
+        123
+      ],
+      [
+        1763877600,
+        123
+      ],
+      [
+        1763964000,
+        123
+      ],
+      [
+        1764050400,
+        123
+      ],
+      [
+        1764136800,
+        123
+      ],
+      [
+        1764223200,
+        123
+      ],
+      [
+        1764309600,
+        123
+      ],
+      [
+        1764396000,
+        123
+      ],
+      [
+        1764482400,
+        123
+      ],
+      [
+        1764568800,
+        123
+      ],
+      [
+        1764655200,
+        123
+      ],
+      [
+        1764741600,
+        123
+      ],
+      [
+        1764828000,
+        123
+      ],
+      [
+        1764914400,
+        123
+      ],
+      [
+        1765000800,
+        123
+      ],
+      [
+        1765087200,
+        123
+      ],
+      [
+        1765173600,
+        123
+      ],
+      [
+        1765260000,
+        123
+      ],
+      [
+        1765346400,
+        123
+      ],
+      [
+        1765432800,
+        123
+      ],
+      [
+        1765519200,
+        123
+      ],
+      [
+        1765605600,
+        123
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "AUS",
+            "name": "Austin-Bergstrom International Airport"
+          },
+          "city": "Austin",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRKdjkMcBZuGRD1MjnuLQvdGtpTk0RyjdYs0Z8JsPtfIjer-6VvmfmMLxzvBkeyUrhf_focikfda4rVHg",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSQ73FSj9E8pKaNvjWKyEDQGfLV-pky_onARvOY-zHWvQ-hOuPJSqyyXzvyg4-kGGAcZxdO6T5SYGWBzrX8x6MSPq7gBHsSLzX9MYjFJWA"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "SJO",
+            "name": "Juan Santamar\u00eda International Airport"
+          },
+          "city": "San Jos\u00e9",
+          "country": "Costa Rica",
+          "country_code": "CR",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuqLbShC8myJJMWyiICy2f6NFgCLzBsJC1PTT5ZD-hiooG-oUOLmES6DFqCJ2mW_qLZPYVkusvvqd89Q",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYygIl45SPdYUj42F1wNyPf2icSIFHViM7jb3cyEt_tL3aFqqqASgZgoudlG4ZXv_p7t59CsZydRUeqU6e9iPtqxw-1szrSBlQxLMN1Jc"
+        }
+      ]
+    }
+  ]
+}
