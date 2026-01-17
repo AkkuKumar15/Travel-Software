@@ -24,6 +24,9 @@ The UI is built with Streamlit and integrates:
 4. A Streamlit UI lets you cycle through valid options
 5. Selected flights are previewed directly on your calendar
 
+As you add new activities and move around existing ones, the possible flights will update automatically. 
+The intention is to allow you to plan your trips flexibily without having to keep searching up new flights.
+
 ---
 
 ## Requirements
@@ -93,7 +96,19 @@ with a single line containing the calendar ID to query.
 
 You can find the calendar ID by going to https://calendar.google.com/ -> My calendars -> Hover over one of the calendars and press the 3 dots -> Settings and Sharing -> Scroll down to "Calendar ID", which will be a super long piece of text ending with @group.calendar.google.com
 
-### 7. Run the streamlit app:
+### 7. Update the flight and date information
+
+At the top of plan_trip.py, make sure to change:
+- ORIGIN (3 digit airport code)
+- DEST (3 digit airport code)
+- DEPART_DATE (YYYY-MM-DD)
+- RETURN_DATE (YYYY-MM-DD)
+- TRIP_NAME (Short description of the trip)
+
+On the first run, SERPAPI will save a json file called "flights_{ORIGIN}_{DEST}_{DEPART_DATE}_{RETURN_DATE}.json."
+In subsequent runs for the same set of parameters, the script will automatically use the saved file (to save your API credits).
+
+### 8. Run the streamlit app
 
 python -m streamlit run plan_trip.py
 
