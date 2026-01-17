@@ -43,26 +43,33 @@ The intention is to allow you to plan your trips flexibily without having to kee
 
 ### 1. Clone the repository
 
-'''bash
+```
+bash
 git clone https://github.com/<your-username>/Travel-Software.git
 cd Travel-Software
+```
 
 ### 2. Create and activate a virtual environment (recommended)
 
+```
 python -m venv .venv
 source .venv/bin/activate  # macOS/Linux
+```
 
 ### 3. Install dependencies
 
+```
 pip install -r requirements.txt
+```
 
 ### 4. Configure SerpAPI
 
 Get your SerpAPI key from https://serpapi.com/google-flights-api
 
 Then add it to your environment:
-
+```
 export SERPAPI_KEY="your_api_key_here"
+```
 
 ### 5. Configure Google Calendar OAuth
 
@@ -79,9 +86,9 @@ a. Create OAuth credentials
 b. Add credentials to the project
 
 Rename the downloaded file to:
-
+```
 credentials.json
-
+```
 and place it in the project root directoy
 
 ⚠️ This file should not be committed to GitHub.
@@ -89,9 +96,9 @@ and place it in the project root directoy
 ### 6. Choose the calendar to use
 
 Create a file named:
-
+```
 travel_calendar_id.txt
-
+```
 with a single line containing the calendar ID to query.
 
 You can find the calendar ID by going to https://calendar.google.com/ -> My calendars -> Hover over one of the calendars and press the 3 dots -> Settings and Sharing -> Scroll down to "Calendar ID", which will be a super long piece of text ending with @group.calendar.google.com
@@ -109,11 +116,17 @@ On the first run, SERPAPI will save a json file called "flights_{ORIGIN}_{DEST}_
 In subsequent runs for the same set of parameters, the script will automatically use the saved file (to save your API credits).
 
 ### 8. Run the streamlit app
-
+```
 python -m streamlit run plan_trip.py
+```
 
 On first run:
 - A browser window will open for Google authentication
 - A local token.json file will be created automatically
 
 ⚠️ token.json contains OAuth access and refresh tokens and must never be committed to GitHub.
+
+### 9. Play with the tool
+
+- You can adjust the inbound and outbound flights separately using the obvious arrow buttons.
+- Make sure to share any comments you have!
