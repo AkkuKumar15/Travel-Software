@@ -112,7 +112,10 @@ At the top of plan_trip.py, make sure to change:
 - RETURN_DATE (YYYY-MM-DD)
 - TRIP_NAME (Short description of the trip)
 
-On the first run, SERPAPI will save a json file called "flights_{ORIGIN}_{DEST}_{DEPART_DATE}_{RETURN_DATE}.json."
+On the first run, SERPAPI will save a json file called 
+```
+flights_{ORIGIN}_{DEST}_{DEPART_DATE}_{RETURN_DATE}.json.
+```
 In subsequent runs for the same set of parameters, the script will automatically use the saved file (to save your API credits).
 
 ### 8. Run the streamlit app
