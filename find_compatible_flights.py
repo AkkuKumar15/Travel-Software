@@ -1,5 +1,5 @@
 # ============================================
-# Filename: cycle_flight_options.py
+# Filename: find_compatible_flights.py
 # Project: GRR API Contract 25-26
 # Created Date: Sa 13 Dec 2025
 # Author: Akshaj Kumar
@@ -101,11 +101,17 @@ def load_all_flights():
 # DETERMINE EARLIEST ACTIVITY
 # -------------------------
 
-def get_earliest_activity_start(service, arrival_date):
+def get_day_activity_bounds(service, date):
+    """
+    Returns:
+      earliest_activity_start,
+      latest_activity_end
+    for the given date.
+    """
     tz = pytz.timezone("America/Chicago")
 
-    day_start = tz.localize(datetime(arrival_date.year, arrival_date.month, arrival_date.day, 0, 0))
-    day_end = tz.localize(datetime(arrival_date.year, arrival_date.month, arrival_date.day, 23, 59))
+    day_start = tz.localize(datetime(date.year, date.month, date.day, 0, 0))
+    day_end   = tz.localize(datetime(date.year, date.month, date.day, 23, 59))
 
     events = service.events().list(
         calendarId=TRAVEL_CAL_ID,
@@ -115,14 +121,22 @@ def get_earliest_activity_start(service, arrival_date):
     ).execute().get("items", [])
 
     if not events:
-        return None
+        return None, None
 
     starts = []
+    ends   = []
+
     for e in events:
         if "dateTime" in e["start"]:
             starts.append(datetime.fromisoformat(e["start"]["dateTime"]))
+        if "dateTime" in e["end"]:
+            ends.append(datetime.fromisoformat(e["end"]["dateTime"]))
 
-    return min(starts) if starts else None
+    earliest = min(starts) if starts else None
+    latest   = max(ends)   if ends   else None
+
+    return earliest, latest
+
 
 
 # -------------------------
@@ -145,6 +159,26 @@ def filter_arrival_flights(flights, earliest_activity):
 
     return valid
 
+def filter_departure_flights(flights, latest_activity):
+    """
+    Keep only flights whose FIRST SEGMENT departs AFTER the last activity ends.
+    """
+    if latest_activity is None:
+        return flights  # nothing scheduled → all flights allowed
+
+    tz = pytz.timezone("America/Chicago")
+    valid = []
+
+    for f in flights:
+        first_seg = f["segments"][0]
+        dep_time = tz.localize(parse_time(first_seg["dep_time"]))
+
+        # Valid only if the flight leaves AFTER the last activity ends
+        if dep_time >= latest_activity:
+            valid.append(f)
+
+    return valid
+
 
 # -------------------------
 # DELETE PREVIEW EVENTS
@@ -163,7 +197,7 @@ def delete_temp_events(service):
         ).execute()
 
     # This workaround is no longer needed — API-created calendars auto-refresh.
-    # service.calendarList().get(calendarId=TRAVEL_CAL_ID).execute()
+    service.calendarList().get(calendarId=TRAVEL_CAL_ID).execute()
 
 
 # -------------------------
@@ -205,13 +239,28 @@ def cycle_flight_options():
     service = get_calendar_service()
     flights = load_all_flights()
 
+    # Ask user which mode to use
+    mode = input("Filter by arrival or departure? (a/d): ").strip().lower()
+    if mode not in ("a", "d"):
+        print("Invalid choice. Use 'a' or 'd'.")
+        return
+
+    # Determine date from first flight's arrival (good enough for now)
     sample_arr = flights[0]["segments"][-1]["arr_time"]
     arr_dt = parse_time(sample_arr)
-    arrival_date = arr_dt.date()
+    date = arr_dt.date()
 
-    earliest = get_earliest_activity_start(service, arrival_date)
+    # Get both earliest + latest activity times
+    earliest, latest = get_day_activity_bounds(service, date)
 
-    flights = filter_arrival_flights(flights, earliest)
+    # Apply chosen filter
+    if mode == "a":
+        flights = filter_arrival_flights(flights, earliest)
+        print("\nUsing ARRIVAL filtering...")
+    else:
+        flights = filter_departure_flights(flights, latest)
+        print("\nUsing DEPARTURE filtering...")
+
     if not flights:
         print("❌ No flights fit your schedule.")
         return
@@ -234,6 +283,7 @@ def cycle_flight_options():
             break
 
         idx = (idx + 1) % n
+
 
 
 if __name__ == "__main__":

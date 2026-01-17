@@ -1,0 +1,1233 @@
+{
+  "outbound_raw": {
+    "search_metadata": {
+      "id": "696ba57113f4b64210e46066",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/1a93cbd327c9cec0/696ba57113f4b64210e46066.json",
+      "created_at": "2026-01-17 15:06:25 UTC",
+      "processed_at": "2026-01-17 15:06:25 UTC",
+      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&tfs=CBwQAhoeEgoyMDI2LTAxLTIyagcIARIDSUFIcgcIARIDR1VBQgEBSAFwAZgBAg&tfu=EgIIAQ",
+      "raw_html_file": "https://serpapi.com/searches/1a93cbd327c9cec0/696ba57113f4b64210e46066.html",
+      "prettify_html_file": "https://serpapi.com/searches/1a93cbd327c9cec0/696ba57113f4b64210e46066.prettify",
+      "total_time_taken": 6.13
+    },
+    "search_parameters": {
+      "engine": "google_flights",
+      "hl": "en",
+      "gl": "us",
+      "type": "2",
+      "departure_id": "IAH",
+      "arrival_id": "GUA",
+      "outbound_date": "2026-01-22",
+      "deep_search": true
+    },
+    "best_flights": [
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "George Bush Intercontinental Airport",
+              "id": "IAH",
+              "time": "2026-01-22 12:40"
+            },
+            "arrival_airport": {
+              "name": "La Aurora International Airport",
+              "id": "GUA",
+              "time": "2026-01-22 15:35"
+            },
+            "duration": 175,
+            "airplane": "Boeing 737MAX 8 Passenger",
+            "airline": "United",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "travel_class": "Economy",
+            "flight_number": "UA 1632",
+            "legroom": "30 in",
+            "extensions": [
+              "Average legroom (30 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 133 kg"
+            ]
+          }
+        ],
+        "total_duration": 175,
+        "carbon_emissions": {
+          "this_flight": 133000,
+          "typical_for_this_route": 139000,
+          "difference_percent": -4
+        },
+        "price": 144,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+        "booking_token": "WyJDalJJWmpaME9WVlRWbDk2VkZGQlIwaHdjV2RDUnkwdExTMHRMUzB0TFc5cmNIa3hOVUZCUVVGQlIyeHljRmhqUTBKM2RqWkJFZ1pWUVRFMk16SWFDZ2lPY0JBQ0dnTlZVMFE0SEhDT2NBPT0iLFtbIklBSCIsIjIwMjYtMDEtMjIiLCJHVUEiLG51bGwsIlVBIiwiMTYzMiJdXV0="
+      }
+    ],
+    "other_flights": [
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "George Bush Intercontinental Airport",
+              "id": "IAH",
+              "time": "2026-01-22 09:32"
+            },
+            "arrival_airport": {
+              "name": "La Aurora International Airport",
+              "id": "GUA",
+              "time": "2026-01-22 12:26"
+            },
+            "duration": 174,
+            "airplane": "Boeing 737MAX 8 Passenger",
+            "airline": "United",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "travel_class": "Economy",
+            "flight_number": "UA 1751",
+            "legroom": "30 in",
+            "extensions": [
+              "Average legroom (30 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 133 kg"
+            ]
+          }
+        ],
+        "total_duration": 174,
+        "carbon_emissions": {
+          "this_flight": 133000,
+          "typical_for_this_route": 139000,
+          "difference_percent": -4
+        },
+        "price": 144,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+        "booking_token": "WyJDalJJWmpaME9WVlRWbDk2VkZGQlIwaHdjV2RDUnkwdExTMHRMUzB0TFc5cmNIa3hOVUZCUVVGQlIyeHljRmhqUTBKM2RqWkJFZ1pWUVRFM05URWFDZ2lPY0JBQ0dnTlZVMFE0SEhDT2NBPT0iLFtbIklBSCIsIjIwMjYtMDEtMjIiLCJHVUEiLG51bGwsIlVBIiwiMTc1MSJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "George Bush Intercontinental Airport",
+              "id": "IAH",
+              "time": "2026-01-22 16:44"
+            },
+            "arrival_airport": {
+              "name": "La Aurora International Airport",
+              "id": "GUA",
+              "time": "2026-01-22 19:39"
+            },
+            "duration": 175,
+            "airplane": "Boeing 737",
+            "airline": "United",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "travel_class": "Economy",
+            "flight_number": "UA 1902",
+            "legroom": "30 in",
+            "extensions": [
+              "Average legroom (30 in)",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 156 kg"
+            ]
+          }
+        ],
+        "total_duration": 175,
+        "carbon_emissions": {
+          "this_flight": 156000,
+          "typical_for_this_route": 139000,
+          "difference_percent": 12
+        },
+        "price": 144,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+        "booking_token": "WyJDalJJWmpaME9WVlRWbDk2VkZGQlIwaHdjV2RDUnkwdExTMHRMUzB0TFc5cmNIa3hOVUZCUVVGQlIyeHljRmhqUTBKM2RqWkJFZ1pWUVRFNU1ESWFDZ2lPY0JBQ0dnTlZVMFE0SEhDT2NBPT0iLFtbIklBSCIsIjIwMjYtMDEtMjIiLCJHVUEiLG51bGwsIlVBIiwiMTkwMiJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "George Bush Intercontinental Airport",
+              "id": "IAH",
+              "time": "2026-01-22 10:15"
+            },
+            "arrival_airport": {
+              "name": "La Aurora International Airport",
+              "id": "GUA",
+              "time": "2026-01-22 13:16"
+            },
+            "duration": 181,
+            "airplane": "Airbus A320",
+            "airline": "Spirit",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NK.png",
+            "travel_class": "Economy",
+            "flight_number": "NK 1627",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Wi-Fi for a fee",
+              "Carbon emissions estimate: 165 kg"
+            ]
+          }
+        ],
+        "total_duration": 181,
+        "carbon_emissions": {
+          "this_flight": 166000,
+          "typical_for_this_route": 139000,
+          "difference_percent": 19
+        },
+        "price": 157,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NK.png",
+        "booking_token": "WyJDalJJWmpaME9WVlRWbDk2VkZGQlIwaHdjV2RDUnkwdExTMHRMUzB0TFc5cmNIa3hOVUZCUVVGQlIyeHljRmhqUTBKM2RqWkJFZ1pPU3pFMk1qY2FDZ2loZWhBQ0dnTlZVMFE0SEhDaGVnPT0iLFtbIklBSCIsIjIwMjYtMDEtMjIiLCJHVUEiLG51bGwsIk5LIiwiMTYyNyJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "George Bush Intercontinental Airport",
+              "id": "IAH",
+              "time": "2026-01-22 13:00"
+            },
+            "arrival_airport": {
+              "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
+              "id": "SAL",
+              "time": "2026-01-22 16:00"
+            },
+            "duration": 180,
+            "airplane": "Airbus A320neo",
+            "airline": "Avianca",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
+            "travel_class": "Economy",
+            "flight_number": "AV 367",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 151 kg"
+            ],
+            "plane_and_crew_by": "Taca International Airlines - Taca"
+          },
+          {
+            "departure_airport": {
+              "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
+              "id": "SAL",
+              "time": "2026-01-22 17:35"
+            },
+            "arrival_airport": {
+              "name": "La Aurora International Airport",
+              "id": "GUA",
+              "time": "2026-01-22 18:35"
+            },
+            "duration": 60,
+            "airplane": "Airbus A320",
+            "airline": "Avianca",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
+            "travel_class": "Economy",
+            "flight_number": "AV 550",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 42 kg"
+            ],
+            "plane_and_crew_by": "Taca International Airlines - Taca"
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 95,
+            "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
+            "id": "SAL"
+          }
+        ],
+        "total_duration": 335,
+        "carbon_emissions": {
+          "this_flight": 194000,
+          "typical_for_this_route": 139000,
+          "difference_percent": 40
+        },
+        "price": 190,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
+        "booking_token": "WyJDalJJWmpaME9WVlRWbDk2VkZGQlIwaHdjV2RDUnkwdExTMHRMUzB0TFc5cmNIa3hOVUZCUVVGQlIyeHljRmhqUTBKM2RqWkJFZ3RCVmpNMk4zeEJWalUxTUJvTENMaVVBUkFDR2dOVlUwUTRISEM0bEFFPSIsW1siSUFIIiwiMjAyNi0wMS0yMiIsIlNBTCIsbnVsbCwiQVYiLCIzNjciXSxbIlNBTCIsIjIwMjYtMDEtMjIiLCJHVUEiLG51bGwsIkFWIiwiNTUwIl1dXQ=="
+      }
+    ],
+    "price_insights": {
+      "lowest_price": 144,
+      "price_level": "high",
+      "typical_price_range": [
+        50,
+        135
+      ],
+      "price_history": [
+        [
+          1763445600,
+          59
+        ],
+        [
+          1763532000,
+          59
+        ],
+        [
+          1763618400,
+          59
+        ],
+        [
+          1763704800,
+          59
+        ],
+        [
+          1763791200,
+          59
+        ],
+        [
+          1763877600,
+          59
+        ],
+        [
+          1763964000,
+          59
+        ],
+        [
+          1764050400,
+          59
+        ],
+        [
+          1764136800,
+          59
+        ],
+        [
+          1764223200,
+          59
+        ],
+        [
+          1764309600,
+          59
+        ],
+        [
+          1764396000,
+          59
+        ],
+        [
+          1764482400,
+          59
+        ],
+        [
+          1764568800,
+          59
+        ],
+        [
+          1764655200,
+          59
+        ],
+        [
+          1764741600,
+          46
+        ],
+        [
+          1764828000,
+          46
+        ],
+        [
+          1764914400,
+          46
+        ],
+        [
+          1765000800,
+          46
+        ],
+        [
+          1765087200,
+          46
+        ],
+        [
+          1765173600,
+          46
+        ],
+        [
+          1765260000,
+          46
+        ],
+        [
+          1765346400,
+          46
+        ],
+        [
+          1765432800,
+          46
+        ],
+        [
+          1765519200,
+          46
+        ],
+        [
+          1765605600,
+          46
+        ],
+        [
+          1765692000,
+          46
+        ],
+        [
+          1765778400,
+          46
+        ],
+        [
+          1765864800,
+          46
+        ],
+        [
+          1765951200,
+          46
+        ],
+        [
+          1766037600,
+          46
+        ],
+        [
+          1766124000,
+          46
+        ],
+        [
+          1766210400,
+          46
+        ],
+        [
+          1766296800,
+          46
+        ],
+        [
+          1766383200,
+          46
+        ],
+        [
+          1766469600,
+          46
+        ],
+        [
+          1766556000,
+          46
+        ],
+        [
+          1766642400,
+          86
+        ],
+        [
+          1766728800,
+          86
+        ],
+        [
+          1766815200,
+          86
+        ],
+        [
+          1766901600,
+          86
+        ],
+        [
+          1766988000,
+          86
+        ],
+        [
+          1767074400,
+          86
+        ],
+        [
+          1767160800,
+          86
+        ],
+        [
+          1767247200,
+          87
+        ],
+        [
+          1767333600,
+          87
+        ],
+        [
+          1767420000,
+          87
+        ],
+        [
+          1767506400,
+          87
+        ],
+        [
+          1767592800,
+          62
+        ],
+        [
+          1767679200,
+          62
+        ],
+        [
+          1767765600,
+          62
+        ],
+        [
+          1767852000,
+          87
+        ],
+        [
+          1767938400,
+          87
+        ],
+        [
+          1768024800,
+          62
+        ],
+        [
+          1768111200,
+          62
+        ],
+        [
+          1768197600,
+          62
+        ],
+        [
+          1768284000,
+          62
+        ],
+        [
+          1768370400,
+          119
+        ],
+        [
+          1768456800,
+          123
+        ],
+        [
+          1768543200,
+          124
+        ],
+        [
+          1768629600,
+          144
+        ]
+      ]
+    },
+    "airports": [
+      {
+        "departure": [
+          {
+            "airport": {
+              "id": "IAH",
+              "name": "George Bush Intercontinental Airport"
+            },
+            "city": "Houston",
+            "country": "United States",
+            "country_code": "US",
+            "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRz_aR3EzoKfjEPwCej8qCyvWu66T9EG171Y9ey1vB16_s9_YVDC1kK_t1Sz1kmayNRX3_br6GHaXQB2w",
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJgsjp3FWA9KoFT7mGzSkSaSLpstcd5dLcH8nD_Pl107uGJg0jhuwJ0c1tPu1UhPLZZfhCHa047RMVmf92BbxfTHQazhW06yPuIJYSL08"
+          }
+        ],
+        "arrival": [
+          {
+            "airport": {
+              "id": "GUA",
+              "name": "La Aurora International Airport"
+            },
+            "city": "Guatemala City",
+            "country": "Guatemala",
+            "country_code": "GT",
+            "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRNpLMD-yjExw_39AolDKO1pPCWl3EmRg_pPc85T0eNCjyrAuLxDdenG2G3MKWb16M4EjTxkST_9d58PA",
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTkd7HS0U0dJivEACAlStGx-0d7MEgrNKozE2K7QKXf1rBsyXKAV1I4wYW9RPhB5shdGL200Hyx_BryHjQAhDyQBEFhWxv0wkUi3XV1pYc"
+          }
+        ]
+      }
+    ]
+  },
+  "inbound_raw": {
+    "search_metadata": {
+      "id": "696ba577b2c613e39f88072c",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/1a93cbd327c9cec0/696ba577b2c613e39f88072c.json",
+      "created_at": "2026-01-17 15:06:31 UTC",
+      "processed_at": "2026-01-17 15:06:31 UTC",
+      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&tfs=CBwQAhoeEgoyMDI2LTAxLTI1agcIARIDR1VBcgcIARIDSUFIQgEBSAFwAZgBAg&tfu=EgIIAQ",
+      "raw_html_file": "https://serpapi.com/searches/1a93cbd327c9cec0/696ba577b2c613e39f88072c.html",
+      "prettify_html_file": "https://serpapi.com/searches/1a93cbd327c9cec0/696ba577b2c613e39f88072c.prettify",
+      "total_time_taken": 1.94
+    },
+    "search_parameters": {
+      "engine": "google_flights",
+      "hl": "en",
+      "gl": "us",
+      "type": "2",
+      "departure_id": "GUA",
+      "arrival_id": "IAH",
+      "outbound_date": "2026-01-25",
+      "deep_search": true
+    },
+    "best_flights": [
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "La Aurora International Airport",
+              "id": "GUA",
+              "time": "2026-01-25 14:11"
+            },
+            "arrival_airport": {
+              "name": "George Bush Intercontinental Airport",
+              "id": "IAH",
+              "time": "2026-01-25 17:17"
+            },
+            "duration": 186,
+            "airplane": "Airbus A320",
+            "airline": "Spirit",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NK.png",
+            "travel_class": "Economy",
+            "flight_number": "NK 1628",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "Wi-Fi for a fee",
+              "Carbon emissions estimate: 217 kg"
+            ]
+          }
+        ],
+        "total_duration": 186,
+        "carbon_emissions": {
+          "this_flight": 217000,
+          "typical_for_this_route": 130000,
+          "difference_percent": 67
+        },
+        "price": 164,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NK.png",
+        "booking_token": "WyJDalJJV1U1eVZrZEdUbkp6ZDNOQlJqRk9SSGRDUnkwdExTMHRMUzB0TFc5clltWjNNa0ZCUVVGQlIyeHljRmhyUTNkWU5YbEJFZ1pPU3pFMk1qZ2FDZ2ovZnhBQ0dnTlZVMFE0SEhEL2Z3PT0iLFtbIkdVQSIsIjIwMjYtMDEtMjUiLCJJQUgiLG51bGwsIk5LIiwiMTYyOCJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "La Aurora International Airport",
+              "id": "GUA",
+              "time": "2026-01-25 13:28"
+            },
+            "arrival_airport": {
+              "name": "George Bush Intercontinental Airport",
+              "id": "IAH",
+              "time": "2026-01-25 16:32"
+            },
+            "duration": 184,
+            "airplane": "Boeing 737MAX 8 Passenger",
+            "airline": "United",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "travel_class": "Economy",
+            "flight_number": "UA 1903",
+            "legroom": "30 in",
+            "extensions": [
+              "Average legroom (30 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 131 kg"
+            ]
+          }
+        ],
+        "total_duration": 184,
+        "carbon_emissions": {
+          "this_flight": 131000,
+          "typical_for_this_route": 130000,
+          "difference_percent": 1
+        },
+        "price": 245,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+        "booking_token": "WyJDalJJV1U1eVZrZEdUbkp6ZDNOQlJqRk9SSGRDUnkwdExTMHRMUzB0TFc5clltWjNNa0ZCUVVGQlIyeHljRmhyUTNkWU5YbEJFZ1pWUVRFNU1ETWFDd2o3dmdFUUFob0RWVk5FT0J4dys3NEIiLFtbIkdVQSIsIjIwMjYtMDEtMjUiLCJJQUgiLG51bGwsIlVBIiwiMTkwMyJdXV0="
+      }
+    ],
+    "other_flights": [
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "La Aurora International Airport",
+              "id": "GUA",
+              "time": "2026-01-25 20:10"
+            },
+            "arrival_airport": {
+              "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
+              "id": "SAL",
+              "time": "2026-01-25 21:05"
+            },
+            "duration": 55,
+            "airplane": "Airbus A320neo",
+            "airline": "Avianca",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
+            "travel_class": "Economy",
+            "flight_number": "AV 557",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 35 kg"
+            ],
+            "plane_and_crew_by": "Taca International Airlines - Taca"
+          },
+          {
+            "departure_airport": {
+              "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
+              "id": "SAL",
+              "time": "2026-01-26 12:05"
+            },
+            "arrival_airport": {
+              "name": "George Bush Intercontinental Airport",
+              "id": "IAH",
+              "time": "2026-01-26 15:10"
+            },
+            "duration": 185,
+            "airplane": "Airbus A320neo",
+            "airline": "Avianca",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
+            "travel_class": "Economy",
+            "flight_number": "AV 424",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 153 kg"
+            ],
+            "plane_and_crew_by": "Taca International Airlines - Taca"
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 900,
+            "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
+            "id": "SAL",
+            "overnight": true
+          }
+        ],
+        "total_duration": 1140,
+        "carbon_emissions": {
+          "this_flight": 190000,
+          "typical_for_this_route": 130000,
+          "difference_percent": 46
+        },
+        "price": 228,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
+        "booking_token": "WyJDalJJV1U1eVZrZEdUbkp6ZDNOQlJqRk9SSGRDUnkwdExTMHRMUzB0TFc5clltWjNNa0ZCUVVGQlIyeHljRmhyUTNkWU5YbEJFZ3RCVmpVMU4zeEJWalF5TkJvTENMbXhBUkFDR2dOVlUwUTRISEM1c1FFPSIsW1siR1VBIiwiMjAyNi0wMS0yNSIsIlNBTCIsbnVsbCwiQVYiLCI1NTciXSxbIlNBTCIsIjIwMjYtMDEtMjYiLCJJQUgiLG51bGwsIkFWIiwiNDI0Il1dXQ=="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "La Aurora International Airport",
+              "id": "GUA",
+              "time": "2026-01-25 07:00"
+            },
+            "arrival_airport": {
+              "name": "George Bush Intercontinental Airport",
+              "id": "IAH",
+              "time": "2026-01-25 10:04"
+            },
+            "duration": 184,
+            "airplane": "Boeing 737MAX 8 Passenger",
+            "airline": "United",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "travel_class": "Economy",
+            "flight_number": "UA 1901",
+            "legroom": "30 in",
+            "extensions": [
+              "Average legroom (30 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 131 kg"
+            ]
+          }
+        ],
+        "total_duration": 184,
+        "carbon_emissions": {
+          "this_flight": 131000,
+          "typical_for_this_route": 130000,
+          "difference_percent": 1
+        },
+        "price": 228,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+        "booking_token": "WyJDalJJV1U1eVZrZEdUbkp6ZDNOQlJqRk9SSGRDUnkwdExTMHRMUzB0TFc5clltWjNNa0ZCUVVGQlIyeHljRmhyUTNkWU5YbEJFZ1pWUVRFNU1ERWFDd2pyc1FFUUFob0RWVk5FT0J4dzY3RUIiLFtbIkdVQSIsIjIwMjYtMDEtMjUiLCJJQUgiLG51bGwsIlVBIiwiMTkwMSJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "La Aurora International Airport",
+              "id": "GUA",
+              "time": "2026-01-25 02:10"
+            },
+            "arrival_airport": {
+              "name": "George Bush Intercontinental Airport",
+              "id": "IAH",
+              "time": "2026-01-25 05:04"
+            },
+            "duration": 174,
+            "airplane": "Boeing 737",
+            "airline": "United",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "travel_class": "Economy",
+            "flight_number": "UA 1907",
+            "legroom": "30 in",
+            "extensions": [
+              "Average legroom (30 in)",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 154 kg"
+            ],
+            "overnight": true
+          }
+        ],
+        "total_duration": 174,
+        "carbon_emissions": {
+          "this_flight": 154000,
+          "typical_for_this_route": 130000,
+          "difference_percent": 18
+        },
+        "price": 279,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+        "booking_token": "WyJDalJJV1U1eVZrZEdUbkp6ZDNOQlJqRk9SSGRDUnkwdExTMHRMUzB0TFc5clltWjNNa0ZCUVVGQlIyeHljRmhyUTNkWU5YbEJFZ1pWUVRFNU1EY2FDd2liMlFFUUFob0RWVk5FT0J4d205a0IiLFtbIkdVQSIsIjIwMjYtMDEtMjUiLCJJQUgiLG51bGwsIlVBIiwiMTkwNyJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "La Aurora International Airport",
+              "id": "GUA",
+              "time": "2026-01-25 05:10"
+            },
+            "arrival_airport": {
+              "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
+              "id": "SAL",
+              "time": "2026-01-25 06:10"
+            },
+            "duration": 60,
+            "airplane": "Airbus A320",
+            "airline": "Avianca",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
+            "travel_class": "Economy",
+            "flight_number": "AV 579",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 42 kg"
+            ],
+            "plane_and_crew_by": "Taca International Airlines - Taca"
+          },
+          {
+            "departure_airport": {
+              "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
+              "id": "SAL",
+              "time": "2026-01-25 08:00"
+            },
+            "arrival_airport": {
+              "name": "George Bush Intercontinental Airport",
+              "id": "IAH",
+              "time": "2026-01-25 11:05"
+            },
+            "duration": 185,
+            "airplane": "Airbus A320",
+            "airline": "Avianca",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
+            "travel_class": "Economy",
+            "flight_number": "AV 368",
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 179 kg"
+            ],
+            "plane_and_crew_by": "Taca International Airlines - Taca"
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 110,
+            "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
+            "id": "SAL"
+          }
+        ],
+        "total_duration": 355,
+        "carbon_emissions": {
+          "this_flight": 222000,
+          "typical_for_this_route": 130000,
+          "difference_percent": 71
+        },
+        "price": 353,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
+        "booking_token": "WyJDalJJV1U1eVZrZEdUbkp6ZDNOQlJqRk9SSGRDUnkwdExTMHRMUzB0TFc5clltWjNNa0ZCUVVGQlIyeHljRmhyUTNkWU5YbEJFZ3RCVmpVM09YeEJWak0yT0JvTENLR1RBaEFDR2dOVlUwUTRISENoa3dJPSIsW1siR1VBIiwiMjAyNi0wMS0yNSIsIlNBTCIsbnVsbCwiQVYiLCI1NzkiXSxbIlNBTCIsIjIwMjYtMDEtMjUiLCJJQUgiLG51bGwsIkFWIiwiMzY4Il1dXQ=="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "La Aurora International Airport",
+              "id": "GUA",
+              "time": "2026-01-25 15:22"
+            },
+            "arrival_airport": {
+              "name": "Dallas Fort Worth International Airport",
+              "id": "DFW",
+              "time": "2026-01-25 19:07"
+            },
+            "duration": 225,
+            "airplane": "Boeing 737",
+            "airline": "American",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+            "travel_class": "Economy",
+            "flight_number": "AA 1486",
+            "legroom": "30 in",
+            "extensions": [
+              "Average legroom (30 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "Stream media to your device",
+              "Carbon emissions estimate: 187 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Dallas Fort Worth International Airport",
+              "id": "DFW",
+              "time": "2026-01-25 21:35"
+            },
+            "arrival_airport": {
+              "name": "George Bush Intercontinental Airport",
+              "id": "IAH",
+              "time": "2026-01-25 22:49"
+            },
+            "duration": 74,
+            "airplane": "Airbus A321",
+            "airline": "American",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+            "travel_class": "Economy",
+            "flight_number": "AA 1912",
+            "legroom": "30 in",
+            "extensions": [
+              "Average legroom (30 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "Stream media to your device",
+              "Carbon emissions estimate: 63 kg"
+            ],
+            "often_delayed_by_over_30_min": true
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 148,
+            "name": "Dallas Fort Worth International Airport",
+            "id": "DFW"
+          }
+        ],
+        "total_duration": 447,
+        "carbon_emissions": {
+          "this_flight": 251000,
+          "typical_for_this_route": 130000,
+          "difference_percent": 93
+        },
+        "price": 584,
+        "type": "One way",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+        "booking_token": "WyJDalJJV1U1eVZrZEdUbkp6ZDNOQlJqRk9SSGRDUnkwdExTMHRMUzB0TFc5clltWjNNa0ZCUVVGQlIyeHljRmhyUTNkWU5YbEJFZzFCUVRFME9EWjhRVUV4T1RFeUdnc0lqOGdERUFJYUExVlRSRGdjY0kvSUF3PT0iLFtbIkdVQSIsIjIwMjYtMDEtMjUiLCJERlciLG51bGwsIkFBIiwiMTQ4NiJdLFsiREZXIiwiMjAyNi0wMS0yNSIsIklBSCIsbnVsbCwiQUEiLCIxOTEyIl1dXQ=="
+      }
+    ],
+    "price_insights": {
+      "lowest_price": 164,
+      "price_level": "typical",
+      "typical_price_range": [
+        110,
+        305
+      ],
+      "price_history": [
+        [
+          1763445600,
+          88
+        ],
+        [
+          1763532000,
+          88
+        ],
+        [
+          1763618400,
+          88
+        ],
+        [
+          1763704800,
+          88
+        ],
+        [
+          1763791200,
+          88
+        ],
+        [
+          1763877600,
+          88
+        ],
+        [
+          1763964000,
+          88
+        ],
+        [
+          1764050400,
+          88
+        ],
+        [
+          1764136800,
+          88
+        ],
+        [
+          1764223200,
+          88
+        ],
+        [
+          1764309600,
+          88
+        ],
+        [
+          1764396000,
+          88
+        ],
+        [
+          1764482400,
+          88
+        ],
+        [
+          1764568800,
+          88
+        ],
+        [
+          1764655200,
+          88
+        ],
+        [
+          1764741600,
+          88
+        ],
+        [
+          1764828000,
+          88
+        ],
+        [
+          1764914400,
+          88
+        ],
+        [
+          1765000800,
+          88
+        ],
+        [
+          1765087200,
+          88
+        ],
+        [
+          1765173600,
+          95
+        ],
+        [
+          1765260000,
+          95
+        ],
+        [
+          1765346400,
+          95
+        ],
+        [
+          1765432800,
+          95
+        ],
+        [
+          1765519200,
+          95
+        ],
+        [
+          1765605600,
+          100
+        ],
+        [
+          1765692000,
+          100
+        ],
+        [
+          1765778400,
+          95
+        ],
+        [
+          1765864800,
+          95
+        ],
+        [
+          1765951200,
+          95
+        ],
+        [
+          1766037600,
+          95
+        ],
+        [
+          1766124000,
+          95
+        ],
+        [
+          1766210400,
+          95
+        ],
+        [
+          1766296800,
+          95
+        ],
+        [
+          1766383200,
+          95
+        ],
+        [
+          1766469600,
+          95
+        ],
+        [
+          1766556000,
+          107
+        ],
+        [
+          1766642400,
+          124
+        ],
+        [
+          1766728800,
+          124
+        ],
+        [
+          1766815200,
+          124
+        ],
+        [
+          1766901600,
+          124
+        ],
+        [
+          1766988000,
+          124
+        ],
+        [
+          1767074400,
+          124
+        ],
+        [
+          1767160800,
+          124
+        ],
+        [
+          1767247200,
+          125
+        ],
+        [
+          1767333600,
+          125
+        ],
+        [
+          1767420000,
+          125
+        ],
+        [
+          1767506400,
+          125
+        ],
+        [
+          1767592800,
+          125
+        ],
+        [
+          1767679200,
+          125
+        ],
+        [
+          1767765600,
+          125
+        ],
+        [
+          1767852000,
+          159
+        ],
+        [
+          1767938400,
+          159
+        ],
+        [
+          1768024800,
+          193
+        ],
+        [
+          1768111200,
+          164
+        ],
+        [
+          1768197600,
+          164
+        ],
+        [
+          1768284000,
+          164
+        ],
+        [
+          1768370400,
+          164
+        ],
+        [
+          1768456800,
+          164
+        ],
+        [
+          1768543200,
+          161
+        ],
+        [
+          1768629600,
+          164
+        ]
+      ]
+    },
+    "airports": [
+      {
+        "departure": [
+          {
+            "airport": {
+              "id": "GUA",
+              "name": "La Aurora International Airport"
+            },
+            "city": "Guatemala City",
+            "country": "Guatemala",
+            "country_code": "GT",
+            "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRNpLMD-yjExw_39AolDKO1pPCWl3EmRg_pPc85T0eNCjyrAuLxDdenG2G3MKWb16M4EjTxkST_9d58PA",
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTkd7HS0U0dJivEACAlStGx-0d7MEgrNKozE2K7QKXf1rBsyXKAV1I4wYW9RPhB5shdGL200Hyx_BryHjQAhDyQBEFhWxv0wkUi3XV1pYc"
+          }
+        ],
+        "arrival": [
+          {
+            "airport": {
+              "id": "IAH",
+              "name": "George Bush Intercontinental Airport"
+            },
+            "city": "Houston",
+            "country": "United States",
+            "country_code": "US",
+            "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRz_aR3EzoKfjEPwCej8qCyvWu66T9EG171Y9ey1vB16_s9_YVDC1kK_t1Sz1kmayNRX3_br6GHaXQB2w",
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJgsjp3FWA9KoFT7mGzSkSaSLpstcd5dLcH8nD_Pl107uGJg0jhuwJ0c1tPu1UhPLZZfhCHa047RMVmf92BbxfTHQazhW06yPuIJYSL08"
+          }
+        ]
+      }
+    ]
+  }
+}
